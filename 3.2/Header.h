@@ -261,7 +261,7 @@ double MMK_F(double a, double b) {
 	Matr M(N - 1, B);
 	Sist S(M, F_);
 	double* Y = S.Gauss();
-	cout << "Значения функции u(x) в точках x_i:" << fixed << showpoint << setprecision(7) << endl;
+	cout << "Значения функции u(x) в точках x_i:" << fixed << showpoint << setprecision(9) << endl;
 	for (int i = 0; i < N - 1; i++) {
 		cout << Y[i] << endl;
 	}

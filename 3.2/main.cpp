@@ -23,6 +23,8 @@ int main()
 	cout << endl << "Çíà÷åíèÿ â òî÷êå äëÿ ÈÓÂ:" << endl;
 	cout << "ÌÌÊ: " << mmk_v << endl;
 	cout << "ÌÏÏ: " << mpp_v << endl;
+	cout << "Íåâÿçêà çíà÷åíèé äëÿ ÈÓÔ: " << scientific << abs(mmk_f - mpp_f) << endl;
+	cout << "Íåâÿçêà çíà÷åíèé äëÿ ÈÓÂ: " << abs(mmk_v - mpp_v) << endl;
 	system("pause");
 	return 0;
 }
